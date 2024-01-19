@@ -2,13 +2,14 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+/[Gg]ame [Ff]iles/[Ll]ibrary/
+/[Gg]ame [Ff]iles/[Tt]emp/
+/[Gg]ame [Ff]iles/[Oo]bj/
+/[Gg]ame [Ff]iles/[Bb]uild/
+/[Gg]ame [Ff]iles/[Bb]uilds/
+/[Gg]ame [Ff]iles/[Ll]ogs/
+/[Gg]ame [Ff]iles/[Uu]ser[Ss]ettings/
+# Not sure weather it will still function without: /[Gg]ame [Ff]iles/[Aa]ssets/[Cc]ourse [Ll]ibrary/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
