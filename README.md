@@ -1,5 +1,6 @@
 # HungryNinja
 A repository to store my game made in Unity following their own Create With Code course, with some of my own additions.
+
 The 'Game Files' directory contains the files Unity needs to edit the game.
 The 'Builds' directory contains the executables just built with the Unity editor
 The 'Releases' directory contains the installers for all versions of the game, which will install the dependancies into the windows programs folder.
