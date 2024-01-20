@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
     private int highscore;
     private float spawnRate = 1.0f;
     private float savedVolume;
+    public float gameDifficulty;
     public int totalLives;
     public int livesLeft;
 
@@ -187,6 +188,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame(int difficulty)
     {
+        gameDifficulty = difficulty;
         isGameActive = true;
         spawnRate /= difficulty;
         livesLeft = totalLives;

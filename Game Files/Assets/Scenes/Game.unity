@@ -7452,6 +7452,7 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: 0a20a5cf1601f1d48bcc734d4b608bd2, type: 2}
   isGameActive: 0
   escaped: 0
+  gameDifficulty: 0
   totalLives: 5
   livesLeft: 0
 --- !u!4 &1492610969
@@ -7972,7 +7973,7 @@ Transform:
   m_GameObject: {fileID: 1611319330}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.97, z: 0}
+  m_LocalPosition: {x: 0, y: -7.07, z: 0}
   m_LocalScale: {x: 3, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []

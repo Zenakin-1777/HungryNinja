@@ -36,6 +36,13 @@ public class Target : MonoBehaviour
         slashAudio = GameObject.Find("Slash Audio").GetComponent<AudioSource>();
         bombHitAudio = GameObject.Find("Bomb Hit Audio").GetComponent<AudioSource>();
         animator = GameObject.Find("Flashbang Effect").GetComponent<Animator>();
+
+        if (gameObject.CompareTag("Good"))
+        {
+            BoxCollider boxCollider = GetComponent<BoxCollider>();
+            float colliderSize = 1 / gameManager.gameDifficulty;
+            boxCollider.size = new Vector3(colliderSize, colliderSize, colliderSize);
+        }
     }
 
     // Update is called once per frame
